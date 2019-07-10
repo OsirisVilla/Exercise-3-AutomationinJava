@@ -22,7 +22,7 @@ public class AmazonHomePage {
 	WebElement txtSearchField;
 
 	@FindBy(xpath = "//input[@type='submit' and @value='Ir']")
-	WebElement btnSearchSubmit;
+	WebElement btnSearchSubmit; 
 
 	@FindBy(xpath = "//a[@id='nav-link-accountList']//span[@class='nav-line-1']") 
 	WebElement lnkYourAccount;

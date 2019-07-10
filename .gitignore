@@ -1,3 +1,1 @@
-target/
-.settings/
-test-output/
+/test-output/

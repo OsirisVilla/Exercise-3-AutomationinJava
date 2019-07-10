@@ -9,6 +9,10 @@ import org.json.simple.parser.ParseException;
 
 public class Data {
 	
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 776e36ef9abe286ec8a0ff3af72ce402129007cd
 	String path = "/Users/hector.villa/git/Exercise3-AutomationinJava/Amazon_Data.json";
 	
 	public String getUrl() throws IOException, ParseException {

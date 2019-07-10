@@ -15,7 +15,11 @@ public class AmazonHomePage {
 	WebDriverWait wait;
 	Data data;
 
+<<<<<<< HEAD
 	@FindBy(id = "nav-link-yourAccount")
+=======
+	@FindBy(id = "nav-link-accountList")
+>>>>>>> 776e36ef9abe286ec8a0ff3af72ce402129007cd
 	WebElement lnkSignIn;
 
 	@FindBy(id = "twotabsearchtextbox")
@@ -24,7 +28,11 @@ public class AmazonHomePage {
 	@FindBy(xpath = "//input[@type='submit' and @value='Ir']")
 	WebElement btnSearchSubmit;
 
+<<<<<<< HEAD
 	@FindBy(xpath = "//a[@id='nav-link-yourAccount']//span[@class='nav-line-1']")
+=======
+	@FindBy(xpath = "//a[@id='nav-link-accountList']//span[@class='nav-line-1']")
+>>>>>>> 776e36ef9abe286ec8a0ff3af72ce402129007cd
 	WebElement lnkYourAccount;
 
 	// Initialize Elements

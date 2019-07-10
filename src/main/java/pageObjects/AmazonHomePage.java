@@ -24,8 +24,9 @@ public class AmazonHomePage {
 	@FindBy(xpath = "//input[@type='submit' and @value='Ir']")
 	WebElement btnSearchSubmit;
 
-	@FindBy(xpath = "//a[@id='nav-link-accountList']//span[@class='nav-line-1']")
+	@FindBy(xpath = "//a[@id='nav-link-accountList']//span[@class='nav-line-1']") 
 	WebElement lnkYourAccount;
+	
 
 	// Initialize Elements
 	public AmazonHomePage(WebDriver driver) {
